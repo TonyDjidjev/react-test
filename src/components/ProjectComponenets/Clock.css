@@ -1,0 +1,33 @@
+.clock{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.hours{
+    text-align: end;
+}
+.hours-text{
+    text-align: start;
+}
+.minutes{
+    text-align: end;
+}
+.minutes-text{
+    text-align: start;
+}
+.seconds{
+    text-align: end;
+}
+.seconds-text{
+    text-align: start;
+}
+.buttons-container{
+    text-align: center;
+    
+}
+    .start{
+        margin-right: 0.5rem;
+    }
+    .stop{
+        margin-left: 0.5rem;
+    }
